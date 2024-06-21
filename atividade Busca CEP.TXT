@@ -1,0 +1,9 @@
+
+Roteiro:
+Criar as variáveis para armazenar as referências dos elementos HTML: cep, rua, bairro, cidade, uf, buscaCep e mostraErro
+Adicionar um ouvinte no botão buscaCep, associado ao evento click. A função deverá ter o async
+Criar a variável cepDigitado e atribuir a elao valor do cep digitado
+Fazer uma chamada assíncrona no endpoint: https://viacep.com.br/ws/99999999/json/ (99999999 deve ser substituído pelo cep - apenas os números)
+Criar a variável data e obter o resultado
+Validar se houve erro. Se houver, mostrar uma mensagem em mostraErro
+Se não, mostrar o resultado em rua, bairro, cidade e cep
